@@ -1,0 +1,73 @@
+/* Configurações Padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+/* Corpo da Aplicação */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Oswaldo', sans-serif;
+    font-size: 4rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    margin: 5rem 0;
+    font-size: 3rem;
+}
+
+/* imagens dos tênis e looks */
+nav img {   
+    width: 7rem;
+    height: 7rem;
+}
+
+/* estilizando os links do nav */
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+/* estilizando a aba contato.html */
+h1 {
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    font-size: 1.5rem;
+
+    max-width: 434px;
+}
+
+.div-de-fora {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.div-de-dentro {
+    margin: 1rem 0;
+}
+.div-de-dentro textarea {
+    resize: none;
+}
+
+
+
